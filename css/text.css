@@ -1,0 +1,40 @@
+/*text formatting*/
+	/*alignment*/
+	.format {
+		margin:  0 auto;
+		padding: 20px;
+	}
+
+	/*for linked text*/
+	.link {
+		color: #B1A098;
+	}
+
+	/*shifting text when shifting window size*/
+	.t-shift {
+		font-size: 4vw;
+	}
+
+	/*name + hi*/
+	h1 {
+		color: #508B52;
+		font-size: 55px;
+	}
+
+	/*do + done + failed*/
+	h2 {
+		color: #3F7041;
+		font-size: 30px;
+	}
+
+	/*project name*/
+	h3 {
+		color: #29482B;
+		font-size: 20px;
+	}
+
+	/*small text*/
+	p {
+		color: #534D4A;
+		font-size: 17px;
+	}

@@ -1,0 +1,14 @@
+/*profile pic format*/
+	.circle {
+		max-width: 350px; 
+		max-height: 350px; 
+		border-radius: 350px;
+	}
+
+	.center {
+		display: block;
+		margin-top: auto;
+		margin-right: auto;
+		margin-left: auto;
+		width: 100%;
+	}

@@ -1,0 +1,55 @@
+/*for typing animation*/
+    /* box for animation */
+    .box {
+        color: #7D7470;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    /* for everything in box */
+    .box p {
+        overflow: hidden; /*hide text until typed*/
+        letter-spacing: 0.1rem;  
+        text-align: left;
+        font-size: 35;
+    }
+
+    /* for text being typed */
+    .typed-text {
+        font-weight: normal;
+        color: #7D7470;
+    }
+
+    /* shift box when window size changes*/
+    .e-shift {
+        width: 25vw;
+        height: 10vw;
+    }
+
+    /* shift text in effect when window size changes */
+    .e-text {
+        font-size: 3vw;
+    }
+
+    /* cursor info */
+    .cursor {
+        display: inline-block;
+        width: 2px; /*thickness of cursor*/
+        height: auto;
+        background-color: #9E9089; /*color of cursor*/
+        animation: blink 1s infinite;
+    }
+
+    .cursor.typing {
+        animation: none;
+    }
+
+    /* cursor blinking effect */
+    @keyframes blink {
+        0%  {background-color: #9E9089;}
+        49%  {background-color: #9E9089;}
+        50% {background-color: transparent;}
+        99% {background-color: transparent;}
+        100% {background-color: #9E9089;}
+    }
