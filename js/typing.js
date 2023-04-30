@@ -1,7 +1,7 @@
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["Programmer", "Designer", "Dog Lover", "Cap Fanatic", "Audiophile"];
+const textArray = ["Programmer", "Designer", "Dog Lover"];
 const typingDelay = 175; //time to type phrase
 const erasingDelay = 100; //time to erase phrase
 const newTextDelay = 2000; // the btwn current and next text
