@@ -7,7 +7,7 @@
 
 	/*for linked text*/
 	.link {
-		color: #B1A098;
+		color: #7d8994;
 	}
 
 	/*shifting text when shifting window size*/
@@ -15,21 +15,21 @@
 		font-size: 4vw;
 	}
 
-	/*name + hi*/
+	/*name + hi: pink: #f0b3ba*/
 	h1 {
-		color: #508B52;
+		color: #f0b3ba;
 		font-size: 55px;
 	}
 
 	/*do + done + failed*/
 	h2 {
-		color: #3F7041;
+		color: #a7c4cf;
 		font-size: 30px;
 	}
 
 	/*project name*/
 	h3 {
-		color: #29482B;
+		color: #52838b;
 		font-size: 20px;
 	}
 
